@@ -1,0 +1,23 @@
+# Directories
+/node_modules
+.idea/
+android/.gradle/
+android/app/build/
+
+# Files config
+.env
+.env.backup
+.phpunit.result.cache
+
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+
+# Files compress
+*.zip
+*.7zip
+*.rar
+*.bak

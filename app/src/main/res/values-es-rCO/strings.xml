@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MoviesApp</string>
+    <string name="action_settings">Configuraciones</string>
+    <string name="first_fragment_label">MoviesApp</string>
+    <string name="second_fragment_label">MoviesApp</string>
+    <string name="next">Siguiente</string>
+    <string name="previous">Anterior</string>
+
+    <!-- first Screen -->
+    <string name="txt_title_movies">PELÍCULAS</string>
+    <string name="title_activity">Películas populares</string>
+    <string name="error_processing">Error al procesar su petición</string>
+
+    <string name="page">Página</string>
+
+    <!-- general -->
+    <string name="loading">Cargando</string>
+    <string name="loading_popular_movies">Cargando películas populares</string>
+    <string name="loading_movie">Cargando película</string>
+    <string name="no_server">No hay conexión con el servidor</string>
+    <string name="error_load_screen"> Error al cargar la actividad </string>
+
+    <!-- second screen -->
+    <string name="sinopsis">Sinopsis</string>
+    <string name="genders">Géneros :</string>
+    <string name="rate">Calificación :</string>
+    <string name="alt_no_data">No hay datos sobre esta película</string>
+    <string name="alt_no_task_complete">No se ha podido completar la tarea</string>
+    <string name="comment">Comentario :</string>
+    <string name="save">Guardar</string>
+    <string name="registered">¡Comentario Registrado!</string>
+</resources>

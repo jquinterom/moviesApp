@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:id="@+id/layoutGrid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="4dp"
+        android:orientation="vertical"
+        android:background="@color/black_primary"
+        >
+
+        <TextView
+            android:id="@+id/txtPageCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:layout_gravity="top|end"
+            android:textColor="@color/red_914"/>
+
+        <FrameLayout
+            android:id="@+id/main_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <GridView
+            android:id="@+id/gridMovies"
+            android:numColumns="3"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+        </GridView>
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="bottom|end">
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/fabPrev"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:layout_margin="@dimen/dp5"
+                    app:srcCompat="@android:drawable/ic_media_previous"
+                    android:contentDescription="@string/action_settings" />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/fabNext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:layout_margin="@dimen/dp5"
+                    app:srcCompat="@android:drawable/ic_media_next"
+                    android:contentDescription="@string/action_settings"/>
+            </android.support.v7.widget.LinearLayoutCompat>
+        </FrameLayout>
+    </android.support.v7.widget.LinearLayoutCompat>
+</android.support.v7.widget.LinearLayoutCompat>

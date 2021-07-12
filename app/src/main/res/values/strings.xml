@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MoviesApp</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">MoviesApp</string>
+    <string name="second_fragment_label">MoviesApp</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!-- first Screen -->
+    <string name="txt_title_movies">MOVIES</string>
+    <string name="title_activity">Popular movies</string>
+    <string name="page">Page</string>
+
+    <!-- general -->
+    <string name="loading">Loading</string>
+    <string name="loading_popular_movies">Loading popular movies</string>
+    <string name="loading_movie">Loading movie</string>
+    <string name="error_processing">Error processing your request</string>
+    <string name="no_server">No connection to the server</string>
+    <string name="error_load_screen">Failed to load activity</string>
+
+    <!-- second screen -->
+    <string name="sinopsis">Sinopsis</string>
+    <string name="genders">Genders :</string>
+    <string name="rate">Rate :</string>
+    <string name="alt_no_data">No data entered</string>
+    <string name="alt_no_task_complete">The task could not be completed</string>
+    <string name="comment">Comment :</string>
+    <string name="save">Save</string>
+    <string name="registered">Comment Registered!</string>
+
+</resources>
